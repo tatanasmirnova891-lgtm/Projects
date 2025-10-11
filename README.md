@@ -7,10 +7,12 @@ __Описание__
 Проект получает прогноз погоды с OpenWeatherMap API для Санкт-Петербурга с интервалом 3 часа на 5 дней.  Создаётся визуализация изменения температуры (°C) и скорости ветра (м/с) с подробной разметкой времени.    
 __Используемые инструменты__   
 Python, requests, pandas, seaborn, matplotlib    
+[Папка с проектом.](/.weather_forecast_project)    
 [Разбор проекта.](./weather_forecast_project/README.md) 
 ### 2. CodeGrader Analytics — SIMULATIVE
 __Описание__    
 Данный проект представляет собой автоматизированный конвейер для сбора, обработки и аналитики данных о решениях студентов, которые они отправляют через редактор кода (грейдер), интегрированный в обучающую систему онлайн-университета.    
 __Используемые инструменты__   
-Python, requests, pandas, psycopg2, gspread, google.oauth2     
+Python, requests, pandas, psycopg2, gspread, google.oauth2   
+[Папка с проектом.](/.codegrader_analytics)   
 [Разбор проекта.](./codegrader_analytics/README.md)

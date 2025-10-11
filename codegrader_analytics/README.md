@@ -219,7 +219,8 @@ summary_df.rename(columns={'created_at': 'Дата'}, inplace=True)
 ```
 ### Загрузка данных в Google Sheets
 Теперь когда все метрики рассчитаны, они загружаются в таблицу Google Sheets. Класс `GoogleSheetsUploader` в модуле `google_sheets.py` реализует функцию загрузки данных из Pandas DataFrame в Google Sheets с использованием API Google Sheets и библиотеки gspread с дополнением `gspread_dataframe`.   
-1. В методе `__init__` происходит аутентификация и подключение к Google Sheets API с использованием сервисного аккаунта Google
+1. В методе `__init__` происходит аутентификация и подключение к Google Sheets API с использованием сервисного аккаунта Google.
+Вызов Credentials.from_service_account_file() для загрузки учетных данных из файла — это использование секретных данных. Этот файл содержит ключи доступа, которые предоставляют полный или ограниченный доступ к ресурсам Google Cloud. Для того чтобы программа выполнялась, необходимо создать JSON-файл с ключами доступа для Google Cloud.
 ```python
 def __init__(self, config):
         self.logger = logging.getLogger(__name__)

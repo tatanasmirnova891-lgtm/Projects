@@ -16,3 +16,15 @@ __Используемые инструменты__
 Python, requests, pandas, psycopg2, gspread, google.oauth2   
 [Папка с проектом.](/.codegrader_analytics)   
 [Разбор проекта.](./codegrader_analytics/README.md)
+
+### 3. Marketplace Users & Purchases Analysis — SYNTHETIC DATA PROJECT    
+__Описание__  
+В этом проекте сгенерирован синтетический набор "грязных" данных пользователей и их покупок на маркетплейсе. Проведён первичный анализ данных (EDA), выполнена очистка и нормализация данных, подготовка к аналитике и визуализации. Очищенные данные загружены в базу данных PostgreSQL для дальнейшего анализа. Проведён ABC_XYZ анализ и построен интерактивный дашборд для исследований поведения пользователей и покупательской активности.  
+__Используемые инструменты__   
+Python (Faker, pandas, numpy), PostgreSQL, Power BI, DAX   
+[Папка с проектом.](/.marketplace_users_data)    
+[Генерация "грязных" данных пользователей и покупок.](./marketplace_users_data/dirty_pushcase_users_data.ipynb)    
+[Разведочный анализ данных.](./marketplace_users_data/EDA_and_create_DB.ipynb)  
+[ABC-XYZ анализ.](./marketplace_users_data/ABC_XYZ_analysis.ipynb)    
+__Power BI__     
+[Описание](./marketplace_users_data/marketplace_Power_BI/README.md)

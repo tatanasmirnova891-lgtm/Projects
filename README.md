@@ -28,3 +28,4 @@ Python (Faker, pandas, numpy), PostgreSQL, Power BI, DAX
 [ABC-XYZ анализ.](./marketplace_users_data/ABC_XYZ_analysis.ipynb)    
 __Power BI__     
 [Описание](./marketplace_users_data/marketplace_Power_BI/README.md)
+[Дашборд] (./marketplace_users_data/marketplace_Power_BI/marketplace_users.pbix)

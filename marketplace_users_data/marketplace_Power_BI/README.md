@@ -21,7 +21,7 @@
 - **ТОП-3 покупателей по сумме покупок** — выявление ключевых клиентов по объему покупок.
 
 ## Как использовать
-1. Скачайте и откройте файл дашборда в Power BI Desktop. [marketplace_users.pbix](./marketplace_users_data/marketplace_Power_BI/marketplace_users.pbix)
+1. Скачайте и откройте файл дашборда в Power BI Desktop. [marketplace_users.pbix](./marketplace_users.pbix)
 2. При необходимости обновите источники данных.
 3. Используйте срезы по времени, возрасту, профессиям для интерактивного анализа.
 

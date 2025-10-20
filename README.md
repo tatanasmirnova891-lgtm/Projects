@@ -29,4 +29,11 @@ Python (Faker, pandas, numpy), PostgreSQL, Power BI, DAX
 [RFM анализ](./marketplace_users_data/RFM_analysis.ipynb)    
 __Power BI__     
 [Описание](./marketplace_users_data/marketplace_Power_BI/README.md)   
-[Дашборд](./marketplace_users_data/marketplace_Power_BI/marketplace_users.pbix)
+[Дашборд](./marketplace_users_data/marketplace_Power_BI/marketplace_users.pbix)    
+
+### 4. Анализ маркетинговых и пользовательских данных    
+__Описание__  
+Данный набор SQL-запросов предназначен для комплексного анализа маркетинговых и пользовательских данных, включая сегментацию пользователей и оценку эффективности рекламных кампаний.     
+__Используемые инструменты__   
+SQL, PostgreSQL    
+[Анализ](./postgreSQL_metrics/README.md)

@@ -133,7 +133,7 @@ FROM sum_metrics;
 ```
 Итоговая таблица   
 
-|cohort|"CTR (%)"|"CR1 (%)"|"purchases_per_click_percent (%)"|"vCR (%)"|"purchases_per_lead_percent (%)"|"vleads_per_click_percent (%)"|"CR2 (%)"|    
+|cohort|CTR (%)|CR1 (%)|purchases_per_click_percent (%)|vCR (%)|purchases_per_lead_percent (%)|vleads_per_click_percent (%)|CR2 (%)|    
 |-----------|---------|-------|------|-------|--------|------|------|    
 2021-11|4.99|21.76|5.19|51.32|23.86|11.17|46.50|
 2021-12|4.93|19.54|4.77|54.90|24.40|10.73|44.44|
